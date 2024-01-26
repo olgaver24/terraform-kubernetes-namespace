@@ -35,13 +35,13 @@ variable container_max_memory_limit {
 }
 
 variable annotations {
-  descriptions = "Please provide annotations"
+  description = "Please provide annotations"
   type = map
   default = {}
 }
 
 variable labels {
-  descriptions = "Please provide labels"
+  description = "Please provide labels"
   type = map
   default = {}
 }
